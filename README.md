@@ -29,11 +29,13 @@ Le nombre de balles est limité à 5, celui des murs à 3.
  - Déplacer le triangle :
 
 Pour déplacer le triangle, les touches suivantes sont utilisées:
- * Flèche haut : 	Déplacement vers le haut
- * Flèche bas : 	Déplacement vers le bas
- * Flèche gauche : 	Déplacement vers la gauche
- * Flèche droite : 	Déplacement vers la droite
- * Barre espace : 	Fin du déplacement
+```
+Flèche haut : 	Déplacement vers le haut
+Flèche bas : 	Déplacement vers le bas
+Flèche gauche : 	Déplacement vers la gauche
+Flèche droite : 	Déplacement vers la droite
+Barre espace : 	Fin du déplacement
+```
 
 ## Collision :
 
