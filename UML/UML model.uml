@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http:///schemas/default/_WnrEcBZQEeiUL5NvRss5dA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/default/_WnrEcBZQEeiUL5NvRss5dA/0 default.profile.uml#_Wos_NxZQEeiUL5NvRss5dA">
+  <uml:Model xmi:id="_Wnlk4BZQEeiUL5NvRss5dA" name="UML model">
+    <eAnnotations xmi:id="_WnmL8BZQEeiUL5NvRss5dA" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_WnmL8RZQEeiUL5NvRss5dA" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmL8hZQEeiUL5NvRss5dA" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmL8xZQEeiUL5NvRss5dA" name="Color">
+      <ownedAttribute xmi:id="_WnmL9BZQEeiUL5NvRss5dA" name="red" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmL9RZQEeiUL5NvRss5dA" name="green" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmL9hZQEeiUL5NvRss5dA" name="blue" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WnmL9xZQEeiUL5NvRss5dA" name="fill" visibility="public">
+        <ownedComment xmi:id="_WnmL-BZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmL-RZQEeiUL5NvRss5dA" name="ctx" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmL-hZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmL-xZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmL_BZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmL_RZQEeiUL5NvRss5dA" name="reset" visibility="public"/>
+      <ownedOperation xmi:id="_WnmL_hZQEeiUL5NvRss5dA" name="Color" visibility="public">
+        <ownedParameter xmi:id="_WnmL_xZQEeiUL5NvRss5dA" name="red" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMABZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMARZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMAhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMAxZQEeiUL5NvRss5dA" name="green" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMBBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMBRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMBhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMBxZQEeiUL5NvRss5dA" name="blue" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMCBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMCRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMChZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMCxZQEeiUL5NvRss5dA" name="Form">
+      <ownedAttribute xmi:id="_WnmMDBZQEeiUL5NvRss5dA" name="color" visibility="public" type="_WnmL8xZQEeiUL5NvRss5dA" aggregation="composite" association="_WnmMMxZQEeiUL5NvRss5dA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMDRZQEeiUL5NvRss5dA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMDhZQEeiUL5NvRss5dA" name="elmt" visibility="public" isUnique="false">
+        <ownedComment xmi:id="_WnmMDxZQEeiUL5NvRss5dA">
+          <body>Lien vers le canvas</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMEBZQEeiUL5NvRss5dA" name="ctx" visibility="public" isUnique="false">
+        <ownedComment xmi:id="_WnmMERZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMEhZQEeiUL5NvRss5dA" name="height" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMExZQEeiUL5NvRss5dA" name="width" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMFBZQEeiUL5NvRss5dA" name="x" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMFRZQEeiUL5NvRss5dA" name="direction" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMFhZQEeiUL5NvRss5dA" name="y" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WnmMFxZQEeiUL5NvRss5dA" name="Form" visibility="public">
+        <ownedComment xmi:id="_WnmMGBZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmMGRZQEeiUL5NvRss5dA" name="ctx" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMGhZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMGxZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMHBZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMHRZQEeiUL5NvRss5dA" name="x" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMHhZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMHxZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMIBZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMIRZQEeiUL5NvRss5dA" name="y" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMIhZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMIxZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMJBZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMJRZQEeiUL5NvRss5dA" name="h" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMJhZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMJxZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMKBZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMKRZQEeiUL5NvRss5dA" name="w" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMKhZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMKxZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMLBZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMLRZQEeiUL5NvRss5dA" name="draw" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMLhZQEeiUL5NvRss5dA" name="collision" visibility="public">
+        <ownedParameter xmi:id="_WnmMLxZQEeiUL5NvRss5dA" name="e" type="_WnmMCxZQEeiUL5NvRss5dA" isUnique="false">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMMBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMMRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMMhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WnmMMxZQEeiUL5NvRss5dA" memberEnd="_WnmMDBZQEeiUL5NvRss5dA _WnmMNBZQEeiUL5NvRss5dA">
+      <ownedEnd xmi:id="_WnmMNBZQEeiUL5NvRss5dA" visibility="public" type="_WnmMCxZQEeiUL5NvRss5dA" association="_WnmMMxZQEeiUL5NvRss5dA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMNRZQEeiUL5NvRss5dA" name="Wall">
+      <generalization xmi:id="_WnmMNhZQEeiUL5NvRss5dA" general="_WnmMCxZQEeiUL5NvRss5dA"/>
+      <ownedAttribute xmi:id="_WnmMNxZQEeiUL5NvRss5dA" name="coef" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WnmMOBZQEeiUL5NvRss5dA" name="Wall" visibility="public">
+        <ownedComment xmi:id="_WnmMORZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmMOhZQEeiUL5NvRss5dA" name="ctx" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMOxZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMPBZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMPRZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMPhZQEeiUL5NvRss5dA" name="x" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMPxZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMQBZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMQRZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMQhZQEeiUL5NvRss5dA" name="y" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMQxZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMRBZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMRRZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMRhZQEeiUL5NvRss5dA" name="h" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMRxZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMSBZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMSRZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMShZQEeiUL5NvRss5dA" name="w" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMSxZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMTBZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMTRZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMThZQEeiUL5NvRss5dA" name="draw" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMTxZQEeiUL5NvRss5dA" name="checkBorder" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMUBZQEeiUL5NvRss5dA" name="Moving">
+      <generalization xmi:id="_WnmMURZQEeiUL5NvRss5dA" general="_WnmMCxZQEeiUL5NvRss5dA"/>
+      <ownedAttribute xmi:id="_WnmMUhZQEeiUL5NvRss5dA" name="speed" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMUxZQEeiUL5NvRss5dA" name="dx" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMVBZQEeiUL5NvRss5dA" name="dy" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WnmMVRZQEeiUL5NvRss5dA" name="Moving" visibility="public">
+        <ownedComment xmi:id="_WnmMVhZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmMVxZQEeiUL5NvRss5dA" name="ctx" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMWBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMWRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMWhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMWxZQEeiUL5NvRss5dA" name="x" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMXBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMXRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMXhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMXxZQEeiUL5NvRss5dA" name="y" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMYBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMYRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMYhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMYxZQEeiUL5NvRss5dA" name="h" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMZBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMZRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMZhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMZxZQEeiUL5NvRss5dA" name="w" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMaBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMaRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMahZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMaxZQEeiUL5NvRss5dA" name="setSpeed" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMbBZQEeiUL5NvRss5dA" name="resetSpeed" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMbRZQEeiUL5NvRss5dA" name="checkBorder" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMbhZQEeiUL5NvRss5dA" name="move" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMbxZQEeiUL5NvRss5dA" name="draw" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMcBZQEeiUL5NvRss5dA" name="Triangle">
+      <generalization xmi:id="_WnmMcRZQEeiUL5NvRss5dA" general="_WnmMUBZQEeiUL5NvRss5dA"/>
+      <ownedOperation xmi:id="_WnmMchZQEeiUL5NvRss5dA" name="draw" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMcxZQEeiUL5NvRss5dA" name="Circle">
+      <generalization xmi:id="_WnmMdBZQEeiUL5NvRss5dA" general="_WnmMUBZQEeiUL5NvRss5dA"/>
+      <ownedOperation xmi:id="_WnmMdRZQEeiUL5NvRss5dA" name="Circle" visibility="public">
+        <ownedComment xmi:id="_WnmMdhZQEeiUL5NvRss5dA">
+          <body>Le ctx est une proriété du canvas dans le DOM</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmMdxZQEeiUL5NvRss5dA" name="ctx" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMeBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMeRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMehZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMexZQEeiUL5NvRss5dA" name="x" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMfBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMfRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMfhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMfxZQEeiUL5NvRss5dA" name="y" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMgBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMgRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMghZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMgxZQEeiUL5NvRss5dA" name="h" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMhBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMhRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMhhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WnmMhxZQEeiUL5NvRss5dA" name="w" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMiBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMiRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMihZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMixZQEeiUL5NvRss5dA" name="draw" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WnmMjBZQEeiUL5NvRss5dA" name="Pong">
+      <ownedAttribute xmi:id="_WnmMjRZQEeiUL5NvRss5dA" name="wall" visibility="public" type="_WnmMNRZQEeiUL5NvRss5dA" aggregation="composite" association="_WnmMqRZQEeiUL5NvRss5dA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMjhZQEeiUL5NvRss5dA" value="3"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMjxZQEeiUL5NvRss5dA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMkBZQEeiUL5NvRss5dA" name="circle" visibility="public" type="_WnmMcxZQEeiUL5NvRss5dA" aggregation="composite" association="_WnmMqxZQEeiUL5NvRss5dA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMkRZQEeiUL5NvRss5dA" value="5"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMkhZQEeiUL5NvRss5dA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMkxZQEeiUL5NvRss5dA" name="triangle" visibility="public" type="_WnmMcBZQEeiUL5NvRss5dA" aggregation="composite" association="_WnmMrRZQEeiUL5NvRss5dA"/>
+      <ownedAttribute xmi:id="_WnmMlBZQEeiUL5NvRss5dA" name="canvas" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMlRZQEeiUL5NvRss5dA" name="ctx" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMlhZQEeiUL5NvRss5dA" name="countB" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_WnmMlxZQEeiUL5NvRss5dA" name="countW" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WnmMmBZQEeiUL5NvRss5dA" name="Pong" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMmRZQEeiUL5NvRss5dA" name="motion" visibility="public">
+        <ownedComment xmi:id="_WnmMmhZQEeiUL5NvRss5dA">
+          <body>Instance de la class évènement du DOM </body>
+        </ownedComment>
+        <ownedParameter xmi:id="_WnmMmxZQEeiUL5NvRss5dA" name="events" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMnBZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMnRZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMnhZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMnxZQEeiUL5NvRss5dA" name="reset" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMoBZQEeiUL5NvRss5dA" name="addBall" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMoRZQEeiUL5NvRss5dA" name="addWall" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMohZQEeiUL5NvRss5dA" name="execute" visibility="public"/>
+      <ownedOperation xmi:id="_WnmMoxZQEeiUL5NvRss5dA" name="collision" visibility="public">
+        <ownedParameter xmi:id="_WnmMpBZQEeiUL5NvRss5dA" name="e" type="_WnmMCxZQEeiUL5NvRss5dA" isUnique="false">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnmMpRZQEeiUL5NvRss5dA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnmMphZQEeiUL5NvRss5dA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WnmMpxZQEeiUL5NvRss5dA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_WnmMqBZQEeiUL5NvRss5dA" name="clear" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WnmMqRZQEeiUL5NvRss5dA" memberEnd="_WnmMjRZQEeiUL5NvRss5dA _WnmMqhZQEeiUL5NvRss5dA">
+      <ownedEnd xmi:id="_WnmMqhZQEeiUL5NvRss5dA" visibility="public" type="_WnmMjBZQEeiUL5NvRss5dA" association="_WnmMqRZQEeiUL5NvRss5dA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WnmMqxZQEeiUL5NvRss5dA" memberEnd="_WnmMkBZQEeiUL5NvRss5dA _WnmMrBZQEeiUL5NvRss5dA">
+      <ownedEnd xmi:id="_WnmMrBZQEeiUL5NvRss5dA" visibility="public" type="_WnmMjBZQEeiUL5NvRss5dA" association="_WnmMqxZQEeiUL5NvRss5dA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WnmMrRZQEeiUL5NvRss5dA" memberEnd="_WnmMkxZQEeiUL5NvRss5dA _WnmMrhZQEeiUL5NvRss5dA">
+      <ownedEnd xmi:id="_WnmMrhZQEeiUL5NvRss5dA" visibility="public" type="_WnmMjBZQEeiUL5NvRss5dA" association="_WnmMrRZQEeiUL5NvRss5dA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_WpELkBZQEeiUL5NvRss5dA">
+      <eAnnotations xmi:id="_WpEyoBZQEeiUL5NvRss5dA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="default.profile.uml#_Wos_NxZQEeiUL5NvRss5dA"/>
+      </eAnnotations>
+      <appliedProfile href="default.profile.uml#_Wos_MBZQEeiUL5NvRss5dA"/>
+    </profileApplication>
+  </uml:Model>
+  <default:create xmi:id="_WpFZsBZQEeiUL5NvRss5dA" base_Element="_WnmL_hZQEeiUL5NvRss5dA"/>
+  <default:create xmi:id="_WpFZsRZQEeiUL5NvRss5dA" base_Element="_WnmMFxZQEeiUL5NvRss5dA"/>
+  <default:create xmi:id="_WpFZshZQEeiUL5NvRss5dA" base_Element="_WnmMOBZQEeiUL5NvRss5dA"/>
+  <default:create xmi:id="_WpFZsxZQEeiUL5NvRss5dA" base_Element="_WnmMVRZQEeiUL5NvRss5dA"/>
+  <default:create xmi:id="_WpFZtBZQEeiUL5NvRss5dA" base_Element="_WnmMdRZQEeiUL5NvRss5dA"/>
+  <default:create xmi:id="_WpFZtRZQEeiUL5NvRss5dA" base_Element="_WnmMmBZQEeiUL5NvRss5dA"/>
+</xmi:XMI>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeux POO - Tom RICHER | Oscar MARIE--TAILLEFER</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+</head>
+<body onkeydown="game.motion(event);" >
+	<style type="text/css">
+		
+	</style>
+	<div class="game">
+		<h1>Jeu POO - Tom RICHER | Oscar MARIE--TAILLEFER</h1>
+		<div class="block">
+			<canvas id="boardgame" width="800" height="700"></canvas>
+			<div class="dashboard">
+				<div class="size">
+					<div><label>Position x </label><input type="text" name="x-b" id="x-b" value="" placeholder="50"></div>
+					<div><label>Position y </label><input type="text" name="y-b" id="y-b" value="" placeholder="50"></div>
+					<div><label>Diametre    </label><input type="text" name="h-b" id="h-b" value="" placeholder="10"></div>
+				</div>
+				<button onclick="game.addBall()">Ajouter un cercle</button>
+				<div class="size">
+					<div><label>Position x </label><input type="text" name="x-w" id="x-w" value="" placeholder="50"></div>
+					<div><label>Position y </label><input type="text" name="y-w" id="y-w" value="" placeholder="50"></div>
+					<div><label>Hauteur    </label><input type="text" name="h-w" id="h-w" value="" placeholder="50"></div>
+					<div><label>Largeur    </label><input type="text" name="w-w" id="w-w" value="" placeholder="50"></div>
+				</div>
+				<button onclick="game.addWall()">Ajouter un mur</button>
+				<button onclick="game.reset()">Réinitialiser le jeu</button>
+			</div>
+		</div>
+		<div class="description">
+			<h2>Description du jeu</h2>
+			<p>
+				Le jeu n'a pas d'objectif en soi, le but est pédagogique.
+				Plusieurs fonctionnalités sont disponibles dont :
+
+				<ul>
+					<li>
+						<h3>Ajouter des formes :</h3>
+						<p>Pour ajouter des formes, il faut entrer les différentes caractéristiques en fonction de la forme souhaitée.</p>
+						<p>Les caratéristiques sont verrouillées pour des raisons de cohérence.</p>
+						<p>Le nombre de balles est limité à 5, celui des murs à 3.</p>
+						<p><b>Position x</b> : un nombre entre 10 et 700</p>
+						<p><b>Position y</b> : un nombre entre 10 et 600</p>
+						<p><b>Diamètre</b> : un nombre entre 5 et 10</p>
+						<p><b>Hauteur</b> : un nombre entre 50 et 100</p>
+						<p><b>Largeur</b> : un nombre entre 50 et 100</p>
+					</li>
+					<li>
+						<h3>Déplacer le triangle :</h3>
+						<p>Pour déplacer le triangle, les touches suivantes sont utilisées:</p>
+						<ul>
+							<table>
+								<tr>
+									<td><b>Flèche haut</b> :</td>
+									<td>Déplacement vers le haut</td>
+								</tr>
+								<tr>
+									<td><b>Flèche bas</b> :</td>
+									<td>Déplacement vers le bas</td>
+								</tr>
+								<tr>
+									<td><b>Flèche gauche</b> :</td>
+									<td>Déplacement vers la gauche</td>
+								</tr>
+								<tr>
+									<td><b>Flèche droite</b> :</td>
+									<td>Déplacement vers la droite</td>
+								</tr>
+								<tr>
+									<td><b>Barre espace</b> :</td>
+									<td>Fin du déplacement</td>
+								</tr>
+							</table>
+						</ul>
+					</li>
+					<li>
+						<h3>Collision :</h3>
+						<p>Les collisions sont gérées automatiquement par le script pong.js</p>
+					</li>
+					<li>
+						<h3>Ajout du triangle :</h3>
+						<p>Le triangle est recréé automatiquement à chaque lancement du jeu</p>
+					</li>
+					<li>
+						<h3>Couleur:</h3>
+						<p>Les couleurs sont mises en place automatiquement, et changées aléatoirement à chaque collision.</p>
+					</li>
+					<li>
+						<h3>Vitesse des balles:</h3>
+						<p>Les vitesses des balles sont définies aléatoirement et redéfinies à chaque collision.</p>
+					</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+	<script src="js/pong.min.js"></script>
+</body>
+</html>

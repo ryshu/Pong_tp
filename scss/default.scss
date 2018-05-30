@@ -1,0 +1,68 @@
+@import "compass/css3";
+
+body{
+	.game{
+		margin: 50px auto;
+		padding: 0;
+		width: 1000px;
+		h1{
+			color: #353535;
+		}
+		.block{
+			display: flex;
+			flex-flow: wrap;
+			width: 100%;
+
+			#boardgame{
+				width: 800px;
+				height: 700px;
+				padding: 0;
+				display: block;
+				position: relative;
+				overflow: visible;
+				border: 5px solid #000;
+			}
+			canvas{
+				display: block;
+				position: absolute;
+			}
+
+			.dashboard{
+				width: 180px;
+				display: flex;
+				flex-flow: column;
+				align-items: center;
+				.size{
+					width: 150px;
+					display: flex;
+					flex-flow: column;
+					justify-content: space-between;
+					div{
+						display: flex;
+						width: 150px;
+						justify-content: space-between;
+						align-items: center;
+						input{
+							width: 65px;
+							height: 30px;
+							margin-top: 5px;
+						}
+					}
+				}
+
+				button{
+					margin: 10px;
+					width: 150px;
+					height: 50px;
+					background-color: #e4e4e4;
+					box-shadow: none;
+					border: none;
+				}
+
+				button:hover{
+					background-color: #c5c5c5;
+				}
+			}
+		}
+	}
+}

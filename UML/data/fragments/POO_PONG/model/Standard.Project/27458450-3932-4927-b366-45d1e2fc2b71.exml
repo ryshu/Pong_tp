@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="POO_PONG" version="4">
+  <OBJECT>
+    <ID name="POO_PONG" mc="Standard.Project" uid="27458450-3932-4927-b366-45d1e2fc2b71"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[POO_PONG]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="UML model" mc="Standard.Package" uid="81ff4fbd-5fc3-490c-8a24-295bbd7c8ce7"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="User folders" mc="Infrastructure.DiagramSet" uid="8c9393b9-18ec-4191-8562-0009f19481d5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
