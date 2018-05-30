@@ -16,17 +16,17 @@ Les caratéristiques sont verrouillées pour des raisons de cohérence.
 
 Le nombre de balles est limité à 5, celui des murs à 3.
 
-### Position x : un nombre entre 10 et 700
+ - Position x : un nombre entre 10 et 700
 
-### Position y : un nombre entre 10 et 600
+ - Position y : un nombre entre 10 et 600
 
-### Diamètre : un nombre entre 5 et 10
+ - Diamètre : un nombre entre 5 et 10
 
-### Hauteur : un nombre entre 50 et 100
+ - Hauteur : un nombre entre 50 et 100
 
-### Largeur : un nombre entre 50 et 100
+ - Largeur : un nombre entre 50 et 100
 
-### Déplacer le triangle :
+ - Déplacer le triangle :
 
 Pour déplacer le triangle, les touches suivantes sont utilisées:
  * Flèche haut : 	Déplacement vers le haut
@@ -35,7 +35,7 @@ Pour déplacer le triangle, les touches suivantes sont utilisées:
  * Flèche droite : 	Déplacement vers la droite
  * Barre espace : 	Fin du déplacement
 
-### Collision :
+## Collision :
 
 Les collisions sont gérées automatiquement par le script pong.js
 Ajout du triangle :
