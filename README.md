@@ -1,52 +1,49 @@
-Tom RICHER 
-Oscar MARIE--TAILLEFER
-
-** Lancement du jeu **
+# Lancement du jeu
 
 Pour lancer le jeu, il faut ouvrir le fichier index.html dans un navigateur.
-Le jeu est testé pour les navigateurs chrome et firefox.
+Le jeu est testÃ© pour les navigateurs chrome et firefox.
 
 
-** Description du jeu **
+# Description du jeu 
 
-Le jeu n'a pas d'objectif en soi, le but est pédagogique. Plusieurs fonctionnalités sont disponibles dont :
+Le jeu n'a pas d'objectif en soi, le but est pÃ©dagogique. Plusieurs fonctionnalitÃ©s sont disponibles dont :
 
-  * Ajouter des formes :
+## Ajouter des formes :
 
-    Pour ajouter des formes, il faut entrer les différentes caractéristiques en fonction de la forme souhaitée.
+Pour ajouter des formes, il faut entrer les diffÃ©rentes caractÃ©ristiques en fonction de la forme souhaitÃ©e.
 
-    Les caratéristiques sont verrouillées pour des raisons de cohérence.
+Les caratÃ©ristiques sont verrouillÃ©es pour des raisons de cohÃ©rence.
 
-    Le nombre de balles est limité à 5, celui des murs à 3.
+Le nombre de balles est limitÃ© Ã  5, celui des murs Ã  3.
 
-    * Position x : un nombre entre 10 et 700
+### Position x : un nombre entre 10 et 700
 
-    * Position y : un nombre entre 10 et 600
+### Position y : un nombre entre 10 et 600
 
-    * Diamètre : un nombre entre 5 et 10
+### DiamÃ¨tre : un nombre entre 5 et 10
 
-    * Hauteur : un nombre entre 50 et 100
+### Hauteur : un nombre entre 50 et 100
 
-    * Largeur : un nombre entre 50 et 100
-    
-  * Déplacer le triangle :
+### Largeur : un nombre entre 50 et 100
 
-    Pour déplacer le triangle, les touches suivantes sont utilisées:
-        Flèche haut : 	Déplacement vers le haut
-        Flèche bas : 	Déplacement vers le bas
-        Flèche gauche : 	Déplacement vers la gauche
-        Flèche droite : 	Déplacement vers la droite
-        Barre espace : 	Fin du déplacement
+### DÃ©placer le triangle :
 
-  * Collision :
+Pour dÃ©placer le triangle, les touches suivantes sont utilisÃ©es:
+*.FlÃ¨che haut : 	DÃ©placement vers le haut
+*.FlÃ¨che bas : 	DÃ©placement vers le bas
+*.FlÃ¨che gauche : 	DÃ©placement vers la gauche
+*.FlÃ¨che droite : 	DÃ©placement vers la droite
+*.Barre espace : 	Fin du dÃ©placement
 
-    Les collisions sont gérées automatiquement par le script pong.js
-    Ajout du triangle :
+### Collision :
 
-    Le triangle est recréé automatiquement à chaque lancement du jeu
-    Couleur:
+Les collisions sont gÃ©rÃ©es automatiquement par le script pong.js
+Ajout du triangle :
 
-    Les couleurs sont mises en place automatiquement, et changées aléatoirement à chaque collision.
-    Vitesse des balles:
+Le triangle est recrÃ©Ã© automatiquement Ã  chaque lancement du jeu
+Couleur:
 
-    Les vitesses des balles sont définies aléatoirement et redéfinies à chaque collision.
+Les couleurs sont mises en place automatiquement, et changÃ©es alÃ©atoirement Ã  chaque collision.
+Vitesse des balles:
+
+Les vitesses des balles sont dÃ©finies alÃ©atoirement et redÃ©finies Ã  chaque collision.
